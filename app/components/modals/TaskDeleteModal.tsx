@@ -23,7 +23,6 @@ const TaskDeleteModal = () => {
                 toast.success('Task deleted!');
             })
             .catch(() => {
-                console.log({ data: { id: TaskDeleteModal.id } })
                 toast.error('Something went wrong.');
             })
             .finally(() => {

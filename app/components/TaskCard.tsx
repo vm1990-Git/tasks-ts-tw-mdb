@@ -45,7 +45,6 @@ const TaskCard: React.FC<TaskCardProps> = ({ data }) => {
     }
 
     const handleDelete = () => {
-        console.log('handleDelete')
         TaskDeleteModal.id = data.id
         TaskDeleteModal.onOpen()
     }

@@ -33,7 +33,6 @@ const TaskEditionModal = () => {
     });
 
     const handleDelete = () => {
-        console.log('handleDelete')
         TaskDeleteModal.id = TaskEditionModal.data.id,
         TaskDeleteModal.onOpen()
     }

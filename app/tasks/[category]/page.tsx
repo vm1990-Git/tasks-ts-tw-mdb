@@ -11,8 +11,6 @@ interface CatergoryParams {
 
 const CategoryPage = async ({ params }: { params: CatergoryParams }) => {
 
-    console.log(params)
-
     try {
         const currentUser = await getCurrentUser();
 
