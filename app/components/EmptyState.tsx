@@ -11,7 +11,7 @@ const EmptyState = () => {
     return (
         <div className='h-full flex flex-col justify-center items-center'>
             <div
-                className='cursor-pointer text-lg font-semibold -translate-y-52 px-10'
+                className='cursor-pointer text-lg font-semibold -translate-y-28 px-10'
             >
                 This was simple a proyect to practice Typecrypt, Next13, MongoDB and Tailwind
                 <div className='text-sm'>
