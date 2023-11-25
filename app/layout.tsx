@@ -10,6 +10,7 @@ import TaskCreationModal from './components/modals/TaskCreationModal'
 import TaskEditionModal from './components/modals/TaskEditionModal'
 import TaskDeleteModal from './components/modals/TaskDeleteModal'
 import ClientOnly from './components/ClientOnly'
+import Footer from './components/Footer'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -38,6 +39,7 @@ export default async function RootLayout({
           <Navbar currentUser={currentUser} />
         </ClientOnly>
         {children}
+        <Footer />
       </body>
     </html>
   )
